@@ -1,4 +1,4 @@
-# ipgrabberforpi
+# IP Grabber for Raspberry pi device
 
 
 
