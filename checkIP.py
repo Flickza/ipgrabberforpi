@@ -47,7 +47,7 @@ print(f"IP Address: {ip_address}")
 print(ipAdresse)
 
 emailList = [
-    "mathias.krogh@outlook.com",
+    "EMAILS TO SEND TO",
 ]
 sendMail()
 
