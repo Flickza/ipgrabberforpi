@@ -34,6 +34,8 @@ Subject: %s
         print('Something went wrong...')
 
 
+
+## Getting the hostname of the device using socket.gethostname() method # Test commit
 hostname = socket.gethostname()
 ## getting the IP address using socket.gethostbyname() method
 ip_address = socket.gethostbyname(hostname)
