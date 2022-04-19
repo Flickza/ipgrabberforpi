@@ -1,9 +1,9 @@
-# IP Grabber for Raspberry pi device
+# IP grabber for Raspberry pi device
 
 # Libraries
     - smtplib
     - socket
-Requires a gmail account for emailing functionality.
+*Requires a gmail account for emailing functionality.
 
 # Why?
 Why would you not want your raspberry pi to email you it's ip everytime it starts?
