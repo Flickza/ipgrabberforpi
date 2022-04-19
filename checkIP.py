@@ -2,7 +2,6 @@
 import socket
 
 
-## getting the hostname by socket.gethostname() method
 def sendMail():
     import smtplib
     global emailList
