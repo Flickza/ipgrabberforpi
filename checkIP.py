@@ -5,11 +5,13 @@ import socket
 def sendMail():
     import smtplib
     global emailList
+    #Gmail account configuration
     gmail_password = 'YOUR GMAIL PASSWORD'
-    #sender mail ved høy eller lav temperatur
     gmail_user = 'YOUR EMAIL TO SEND FROM'
+    
     sent_from = gmail_user
-    to = emailList #sender email til alle i emaillisten
+    to = emailList #list of emails to send to
+    
     subject = 'RASPBERRY PI IP DEVICE INFO'
     body = """
 Hostname er : %s 
